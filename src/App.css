@@ -28,11 +28,44 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TabsListUnstyled-root.TabsListUnstyled-horizontal button {
+  border: 1px solid indigo;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button.TabUnstyled-root.Mui-selected {
+  color: #fff;
+  background-color: indigo;
+}
+
+.TabsListUnstyled-root.TabsListUnstyled-horizontal {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.create-btn {
+  border: 1px solid indigo;
+  padding: 10px 10px 7px 10px;
+  border-radius: 4px;
+}
+
+.create-btn:hover {
+  transition: 0.3s;
+  color: #fff;
+  background-color: indigo;
+}
+.tableCell-invisible{
+  display: none;
 }
